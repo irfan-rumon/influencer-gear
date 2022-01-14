@@ -15,11 +15,11 @@ ul {
     align-items: center;
 }
 
-.section-1{
+.section-1, .section-2{
     height: 500px;
-    width: 100%%;
+    width: 100%;
     margin: 30px;
-    background-color: bisque;
+    /* background-color: bisque; */
 } 
 
 .section-1 .nav-section, .section-1 .middle-part{
@@ -32,4 +32,22 @@ ul {
     text-decoration: none;
     margin-right: 40px;
     color: black;
+}
+
+.section-2 .section-title{
+    text-align: center;
+}
+
+.section-2 .collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collection{
+    height: 500px;
+}
+
+.collection img{
+    height: 50%;
 }
