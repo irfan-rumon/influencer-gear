@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.logos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1{
+    height: 500px;
+    width: 100%%;
+    margin: 30px;
+    background-color: bisque;
+} 
+
+.section-1 .nav-section, .section-1 .middle-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.section-1 .nav-section nav ul li a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+}
