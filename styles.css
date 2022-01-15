@@ -103,9 +103,27 @@ ul {
     font-size: 0.8em;
 }
 
+.special-discount{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 80px;
+}
+
+.special-discount .picture-special-discount img{
+    width: 800px;
+    height: 500px;
+}
+
+
+.special-discount .content-special-discount{
+    
+    margin: 120px 20px;
+}
+
 
 footer{
     margin-top: 40px;
+    margin-bottom: 0;
     height: 180px;
     padding-top: 50px;
     background-color: rgb(0, 6, 41);
@@ -115,4 +133,5 @@ footer{
 
 .social-media .icon{
     margin-right: 20px;
+    height: 400px;
 }
