@@ -55,6 +55,12 @@ ul {
     margin-bottom: 35px;
 }
 
+
+.section-1  .middle-part .picture a:hover img{
+    transform: scale(1.3);
+    transition: transform 1.5s;
+}
+
 .section-1  .middle-part .contents{
     margin: 120px 20px;
 }
