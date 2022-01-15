@@ -6,9 +6,14 @@
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 10px;
 }
 
 
@@ -94,14 +99,26 @@ ul {
 .section-2 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* row-gap: 60px;
-    column-gap: 10px; */
+    grid-row-gap: 50px;
+    grid-column-gap: 30px;
     place-items: center;
+    margin-left: 120px;
+    margin-right: 60px;
 }
 
 .section-2 .collections img{
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 480px;
+}
+
+
+.far.fa-star{
+   font-size: 30px;
+}
+
+.rating-value{
+    font-size: 30px;
+    color: rgb(70, 64, 64);
 }
 
 .filled{
@@ -117,7 +134,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 100px 80px;
+    margin: 120px;
 }
 
 .special-discount .picture-special-discount img{
