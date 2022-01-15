@@ -161,7 +161,7 @@ ul {
 }
 
 .special-discount .picture-special-discount img{
-    width: 800px;
+    width: 770px;
     height: 500px;
 }
 
@@ -206,6 +206,19 @@ footer{
     border:1px solid rgb(97, 104, 167);
     border-radius: 15px;
     margin-top: 40px;
+}
+
+#see-more{
+    position: relative;
+    left: 1540px;
+    font-size: 33px;
+    color: rgb(242, 119, 247);
+    margin: 40px;
+
+}
+
+.fas.fa-arrow-right{
+    margin-left: 12px;
 }
 
 @media (max-width:992px){
