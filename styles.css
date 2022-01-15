@@ -148,6 +148,15 @@ footer{
     margin-right: 20px;
     height: 400px;
 }
+.btn{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid hotpink;
+    border-radius: 10px;
+    background-color: hotpink;
+    font-size: 20px;
+}
 
 @media (max-width:992px){
     .section-2 .collections{
