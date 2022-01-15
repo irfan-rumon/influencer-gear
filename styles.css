@@ -157,6 +157,10 @@ ul {
     margin: 120px 20px;
 }
 
+.special-discount-title{
+    text-align: center;
+    margin-bottom: 25px;
+}
 
 footer{
     display: flex;
