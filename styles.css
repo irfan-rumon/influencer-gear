@@ -60,7 +60,7 @@ ul {
 }
 
 
-.section-1 .nav-section, .section-1 .middle-part, .special-discount{
+.section-1 .nav-section, .section-1 .middle-part{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -109,6 +109,14 @@ ul {
     place-items: center;
     margin-left: 120px;
     margin-right: 60px;
+    background-color: rgb(248, 242, 242);
+   
+}
+
+.section-2 .collections .collection{
+    border: 3px solid rgb(68, 78, 78);
+    padding: 45px 0px 45px 45px;
+    border-radius: 18px;
 }
 
 .collection-name{
@@ -149,7 +157,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 120px;
+    margin: 200px 100px 200px 120px;
 }
 
 .special-discount .picture-special-discount img{
@@ -161,12 +169,14 @@ ul {
 .special-discount .content-special-discount{
     
     margin: 120px 20px;
+    padding-left: 60px;
 }
 
 .special-discount-title{
     text-align: center;
     margin-bottom: 25px;
 }
+
 
 footer{
     display: flex;
