@@ -33,6 +33,11 @@ ul {
     align-items: center;
 }
 
+.logos img{
+   height: 80px;
+   width: 150px;
+}
+
 
 .section-1 .picture img{
     width: 100%;
